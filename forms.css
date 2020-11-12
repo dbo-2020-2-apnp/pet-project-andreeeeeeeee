@@ -5,4 +5,6 @@ label {
   background-color: blanchedalmond;
 } input:hover {
   border-color: aquamarine;
+} input[type=number] {
+  width: 5em;
 }
