@@ -1,0 +1,8 @@
+label {
+  margin-top: 1em;
+  display: block;
+} input {
+  background-color: blanchedalmond;
+} input:hover {
+  border-color: aquamarine;
+}
