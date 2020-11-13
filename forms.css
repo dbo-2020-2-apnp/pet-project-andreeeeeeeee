@@ -1,10 +1,24 @@
 label {
   margin-top: 1em;
   display: block;
-} input {
+} input, textarea, select {
   background-color: blanchedalmond;
-} input:hover {
+} input:hover, textarea:hover, select:hover, fieldset:hover {
   border-color: aquamarine;
 } input[type=number] {
-  width: 5em;
+  width: 3em;
+} fieldset {
+  margin-top: 0.5em;
+  background-color: blanchedalmond;
+} table {
+  border-collapse: collapse;
+  border-style: groove;
+} thead tr, thead th {
+  border: 1px solid;
+  padding: 2px;
+  background-color: aqua;
+} tbody td, tbody th {
+  border: 1px solid;
+  padding: 5px;
+  background-color: blanchedalmond;
 }

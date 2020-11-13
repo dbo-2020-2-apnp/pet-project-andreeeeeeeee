@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formularios</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+  <nav class="horizontal">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#glossario">Glossário</a></li>
+      <li><a href="aside-page.html">aside</a></li>
+      <li><a href="/mediastuff/images.html">media</a></li>
+      <li><abbr title="você já está aqui">Preenche</abbr></li>
+      <li><a href="https://www.youtube.com/watch?v=6n3pFFPSlW4" target="_blank">item linkado do menu</a></li>
+    </ul>
+  </nav>
+  <form>
+    <input type="hidden" value="nao tem nada aquikkkkkkkkkkkkkk">
+    <label for="bota">Bota:</label>
+    <input type="text" id="bota" name="bota" autofocus>
+    <label for="muito">Bota muita coisa:</label>
+    <input type="text" id="muito" name="muito" size="40">
+    <label for="data">Bota dia e hora:</label>
+    <input type="date" id="data" name="data"> <input type="time" id="tempo"  name="tempo">
+    <label for="telefone">Bota telefone:</label>
+    <input type="tel" id="telefone" name="telefone">
+    <label for="numero">Bota numero:</label>
+    <input type="number" value="0" id="numero" name="numero">
+    <label>Bota senha:</label>
+    <input type="password" id="senha" name="senha">
+    <label for="endereço">Bota o endereço pra eu te <s>sequestrar</s> entregar presente:</label>
+    <input type="text" id="endereço" name="endereço" placeholder="Rua dos Alfeneiros, nº4">
+    <label for="profissao">Bota profissão pra ficar mais fácil de eu te achar:</label>
+    <input type="text" id="profissao" name="profissao" disabled value="Estudante">
+    <label for="curso">Está cursando:</label>
+    <input type="text" id="curso" name="curso" list="cursos">
+    <datalist id="cursos">
+      <option value="Info">
+      <option value="Geo">
+      <option value="Eletro">
+      <option value="Fabri">
+      <option value="Automação">
+    </datalist>
+    <label for="ano">Está no:</label>
+    <select id="ano" name="ano">
+      <option value="1">1° ano</option>
+      <option value="2">2° ano</option>
+      <option value="3">3° ano</option>
+      <option value="4">4° ano</option>
+    </select>
+    <label>Lê:</label>
+    <input type="text" id="le" name="le" readonly value="Leu">
+    <label for="naosei">Desliza o bagui:</label>
+    <input type="range" min="1" max="10" id="naosei" name="naosei">
+    <label for="cor">Bota cor:</label>
+    <input type="color" id="cor" name="cor">
+    <fieldset>
+      <legend>Melhores sabores de sorvete:</legend>
+      <label>
+        <input type="checkbox" id="flocos" name="flocos" checked disabled>
+        Flocos
+      </label>
+      <label>
+        <input type="checkbox" id="baunilha" name="baunilha" disabled>
+        Baunilha
+      </label>
+      <label>
+        <input type="checkbox" id="mentacomchocolate" name="mentacomchocolate" disabled>
+        Menta com chocolate
+      </label>
+      <label>
+        <input type="checkbox" id="chocolate" name="chocolate" disabled>
+        Chocolate
+      </label>
+      <label>
+        <input type="checkbox" id="leitecondensado" name="leitecondensado" disabled>
+        Leite condensado
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Um fazendeiro tem 17 vacas, todas morrem menos 9, quantas ficam?</legend>
+      <label>
+        <input type="radio" name="resposta" value="0">
+        0
+      </label>
+      <label>
+        <input type="radio" name="resposta" value="8">
+        8
+      </label>
+      <label>
+        <input type="radio" name="resposta" value="9">
+        9
+      </label>
+      <label>
+        <input type="radio" name="resposta" value="17">
+        17
+      </label>
+      <label>
+        <input type="radio" name="resposta" value="26">
+        26
+      </label>
+    </fieldset>
+    <label for="post">Escreve coisa:</label>
+    <textarea id="post" name="post" cols="30" rows="5"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Apaga issooo">
+    <br><br>
+    <input type="file">
+    <h1>Tabela</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>coluna 1</th>
+          <th>coluna 2</th>
+          <th>coluna 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>item 1 da coluna 1</td>
+          <td>item 1 da coluna 2</td>
+          <td>item 1 da coluna 3</td>
+        </tr>
+        <tr>
+          <td>item 2 da coluna 1</td>
+          <td>item 2 da coluna 2</td>
+          <td>item 2 da coluna 3</td>
+        </tr>
+        <tr>
+          <td>item 3 da coluna 1</td>
+          <td>item 3 da coluna 2</td>
+          <td>item 3 da coluna 3</td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</body>
+</html>
