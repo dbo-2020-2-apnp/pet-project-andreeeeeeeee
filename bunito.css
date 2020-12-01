@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  /*586A6A CD533B 9593D9*/
+} nav.horizontal {
+  background-color: #FFFFFF;
+  color: #000000;
+  line-height: 2.5em;
+  text-align: center;
+} nav.horizontal li {
+  padding: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+} nav li:hover {
+  background-color:#FFFFFF;
+} a {
+  color: hsl(10, 59%, 52%);
+} h1 {
+  text-align: center;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px hsl(242, 48%, 71%);
+} h1:hover {
+  background-color: hsl(180, 9%, 38%);
+  margin-left: 35%;
+  margin-right: 35%;
+  text-shadow: 2px 2px 2px hsl(10, 59%, 52%);
+} div {
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  line-height: 1.5em;
+  margin-left: 35%;
+  margin-right: 35%;
+} div.talvez {
+  font-style: oblique;
+} div.bunito {
+  font-weight: bolder;
+}
+ div:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(10, 59%, 52%);
+}
