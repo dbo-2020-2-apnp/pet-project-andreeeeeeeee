@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: hsl(0, 0%, 0%);
@@ -7,12 +10,10 @@ body {
 } nav.horizontal {
   background-color: #FFFFFF;
   color: #000000;
-  line-height: 2.5em;
+  line-height: 1.5em;
   text-align: center;
 } nav.horizontal li {
-  padding: 5px;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 3px 1.5em;
 } nav li:hover {
   background-color:#FFFFFF;
 } a {
@@ -36,8 +37,7 @@ body {
   font-style: oblique;
 } div.bunito {
   font-weight: bolder;
-}
- div:hover {
+} div:hover {
   color: hsl(0, 0%, 100%);
   background-color: hsl(10, 59%, 52%);
 }
