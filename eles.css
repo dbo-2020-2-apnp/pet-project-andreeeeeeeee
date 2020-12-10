@@ -5,12 +5,6 @@ html, body {
 * {
   box-sizing: border-box;
 }
-div {
-  margin: 0;
-  color: #FFFFFF;
-} div:hover {
-  background-color: black;
-}
 div.container {
   position: absolute;
   left: calc(50vw - 130px);
@@ -20,18 +14,15 @@ div.container {
 div.card {
   border: 1px solid hsl(180, 9%, 38%);
   box-shadow: 2px 2px 5px;
-  width: 118px;
+  width: 117.79828px;
   display: inline-block;
   margin: 10px 5px;
+  font: 1em sans-serif;
+  text-align: center;
 }
 div.card:hover {
   background-color: rgb(148, 146, 217);
-  transition: background-color 1s;
-}
-div.card p {
-  font: 1em sans-serif;
-  margin: 0;
-  text-align: center;
+  transition: ease-in-out 1s;
 }
 div.card img {
   width: 100%;
