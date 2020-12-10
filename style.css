@@ -5,8 +5,7 @@ nav ul {
   font-family: Arial, Helvetica, sans-serif;
   width: 100px;
 } nav li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 } nav.menu ul {
   width: 100%;
 } nav.menu li {
